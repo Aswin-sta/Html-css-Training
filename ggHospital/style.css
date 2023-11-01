@@ -170,7 +170,9 @@ nav ul li a:active {
   font-size: 20px;
   display: block;
 }
-
+.appointmentForm{
+z-index:-99;
+}
 .appointmentInput {
   position: relative;
   width: 28%;
@@ -207,7 +209,11 @@ select.appointmentInput {
   border-radius: 6px
 }
 .ourDepartmentsWrapper{
-  margin-top:40%;
+  margin-top:15%;
+}
+.ourDepartmentsWrapper h2{
+  font-size: 50px;
+  
 }
 
 .ourDepartments{
