@@ -10,6 +10,8 @@ body {
   background: #f5f5f5;
   margin-block: auto;
   top: 0;
+  z-index:99;
+  overflow-x: hidden;
 }
 .topBar {
   text-align: center;
@@ -169,10 +171,9 @@ nav ul li a:active {
   font-weight: bold;
   font-size: 20px;
   display: block;
+ 
 }
-.appointmentForm{
-z-index:-99;
-}
+
 .appointmentInput {
   position: relative;
   width: 28%;
@@ -187,6 +188,7 @@ z-index:-99;
 .appointmentInput input {
   font-size: medium;
   color: rgb(196, 191, 191);
+
 }
 
 select.appointmentInput {
