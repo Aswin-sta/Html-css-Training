@@ -1,0 +1,109 @@
+body{
+    display: block;
+    padding: 0%;
+    margin: 0%;
+    font-size: small;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titleWrapper{
+    position: relative;
+    text-align: center;
+    color:white;
+    background-color:#00A9FF;
+    padding:2% 5%;
+    margin: 0;
+    width:auto;
+    display:flex;
+    overflow: visible;
+    text-transform: uppercase; 
+}
+.titleWrapper .title{
+    background-color:blue;
+    padding:5%;
+    width:80%;
+    top: 0;
+    right: 0;
+    position: relative;
+    left:3%;
+    
+
+}
+
+.titleWrapper img{
+    top:7%;
+    left:4%;
+    width: 200px;
+    position: absolute;
+    aspect-ratio: 1/1;
+    z-index: 99;
+    border-radius: 70%;
+    background-color: aliceblue;
+
+}
+
+.titleWrapper .title  h1{
+    margin: 0%;
+  
+}
+
+.titleWrapper  div h5{
+    margin: 0%;
+  
+}
+.bottomHalf{
+    display:flex;
+}
+
+.leftHalf{
+    background-color:#89CFF3;
+    width:18%;
+    color: black;
+    padding-inline:5%;
+}
+
+.leftHalf ol{
+    
+    padding-block:5%;
+}
+
+.leftHalf ol li{
+    
+    padding-block:5%;
+}
+
+ .expertiseWrapper{
+    padding-inline: 2% 5% 5% 5%;
+    border:1px solid white;
+}
+
+.expertiseWrapper h4{
+    margin-left: 5%;
+}
+
+
+
+.rightHalf{
+
+    width:80%;
+    padding:2% 5% 5% 5%;
+     left: 20%;
+    background-color: white;
+}
+
+.rightHalf h2{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.rightHalf table{
+    width:80%;
+    border-collapse: collapse;
+    
+}
+.rightHalf table tr:nth-child(even) {
+    background-color: #6b4444;
+}
+.rightHalf table td{
+    text-align:center;
+}

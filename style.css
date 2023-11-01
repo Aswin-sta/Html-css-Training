@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(152, 194, 194);
+}
+
+
+
+.hContainer {
+  text-align: center;
+  color: red;
+}
+.hContainer h1 {
+  color: aliceblue;
+}
+
+#blackPara {
+  color: black;
+  text-align:start
+}
+
+
+
+.listSection {
+  padding: 10px;
+}
+.listSection ol {
+  background-color: rgb(228, 54, 54);
+  padding: 20px;
+}
+.listSection ol li {
+  color: rgb(146, 68, 68);
+  background-color: rgb(247, 209, 209);
+  padding-block: 3px;
+}
+.listSection ul {
+  padding: 20px;
+  color: rgb(11, 105, 228);
+  background-color: rgb(111, 149, 206);
+}
+
+.listSection ul li {
+  color: rgb(25, 28, 32);
+  background-color: rgb(214, 220, 230);
+  margin-block: 5px;
+}

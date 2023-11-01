@@ -1,0 +1,235 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0%;
+  background-color: #504099;
+  font-family: 'Roboto Mono', monospace;
+}
+.navBar {
+  display: flex;
+  background-color:#313866;
+  color: white;
+  width: 80vw;
+  height: 10%;
+  justify-content: space-between;
+  padding-inline: 10%;
+  position: fixed;
+  top:0;
+  z-index: 999;
+}
+.navBar nav ul {
+  display: flex;
+ 
+  justify-content: space-between;
+}
+
+.navBar nav a {
+  padding: 5%;
+  color:white;
+  list-style: none;
+  text-decoration: none;
+  border-radius:10%;
+}
+
+.navBar nav a:hover {
+
+  text-decoration: none;
+  background-color:#6955c0 ;
+}
+
+.navBar nav a:active {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.wrapper{
+  height:90%;
+}
+
+
+#home{
+  overflow: hidden;
+  height: 80vh;
+  width:auto;
+  display: flex;
+  padding-top: 10%;
+  background-image: linear-gradient(#313866, #504099);
+}
+
+#home > img{
+ position: absolute;
+  right :0%;
+  bottom: 0;
+  height:90vh;
+}
+
+
+.leftContainer
+{
+  position: relative;
+  width:80%;
+  padding:0;
+  margin: 0;
+}
+
+.leftContainer h3{
+  color:white;
+  position: absolute;
+  font-size: larger;
+  letter-spacing: 3px;
+  margin-left:25px;
+  text-transform: uppercase; 
+}
+
+.speciality h2{
+  padding: 0;
+  margin: 0;
+  letter-spacing:-.5px;
+
+} 
+
+.speciality{
+  margin-top :7%;
+  color:white;
+  margin-left:20px;
+  font-size: 45px;
+  padding: 0;
+  /* font-family: 'Montserrat', sans-serif; */
+  letter-spacing: 2px;
+}
+
+.skill{
+  position: absolute;
+  bottom:0;
+  animation: scroll 12s  linear forwards infinite;
+  width:100%;
+  color:rgb(181, 182, 224);                          ;
+  font-size: 150px;
+  white-space:nowrap;
+}
+
+@keyframes scroll{
+  0%{transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-200%);
+  }
+}
+
+
+/* .line {
+      width: 20em;
+      top: 30%;
+      position: relative;
+      margin: auto;
+      color: white;
+      font-size: 40px;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      left:10%;
+      white-space: nowrap;
+      overflow: hidden;
+}
+
+.anim-typewriter {
+      animation: typewriter 4s  1s steps(26) normal both,
+      blinkTextCussor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 100%;
+      }
+} */
+
+
+.projects {
+  background-color: #504099;
+  padding-top: 5%;
+  padding-left:5%;
+  height: auto;
+}
+
+#projects  {
+  text-align: center;
+  color:white;
+}
+
+.projects div{
+  display: flex;
+}
+
+.projects div img{
+  width:400px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.projects div p{
+background-color: white;
+margin-inline:10%;
+text-align: justify;
+padding: 5%;
+border-radius:10px;
+}
+
+
+.projects div p span{
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+  }
+  
+
+#about {
+text-align: center;
+padding: 5%;
+color: white;
+border-radius:10px;
+  padding-top: 5%;
+  margin-left:5%;
+  height: auto;
+
+}
+
+
+
+#about > h2 {
+  margin-top:5%;
+}
+
+#contact {
+  padding-inline: 5%;
+display:flex;
+justify-content: space-between;
+}
+
+#contact ul{
+  display:flex;
+justify-content: space-between;
+list-style: none;
+
+}
+
+#contact ul li{
+  text-decoration: none;
+  padding-inline-end: 8px;
+
+}
+#email a{
+  color: white;
+  text-decoration: none;
+}
+
+#contact ul li a{
+  text-decoration: none;
+  color: white;
+}
